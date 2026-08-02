@@ -75,7 +75,7 @@ export function MasterPortalNextPage({ locale }: { locale: string }) {
         </div>
 
         {/* Hotel Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-8">
           {hotels.map((hotel, idx) => (
             <motion.div 
               key={hotel.id}
