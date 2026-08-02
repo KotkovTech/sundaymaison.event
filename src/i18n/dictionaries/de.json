@@ -1,0 +1,205 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "packages": "Pakete",
+    "gallery": "Galerie",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "getQuote": "Angebot Anfragen",
+    "planEvent": "Event Planen"
+  },
+  "hero": {
+    "subtitle": "JUNGGESELLINNENABSCHIEDE, BRAUT-EVENTS & UNVERGESSLICHE FEERN IN IRLAND",
+    "title": "Luxus-Events Ohne Stress",
+    "description": "Wir kreieren wunderschöne, stressfreie Erlebnisse in ganz Irland. Von Styling und Beauty bis hin zu Gourmet-Grazing und Atmosphäre — wir kümmern uns um jedes Detail, damit Sie einfach genießen können.",
+    "ctaPrimary": "Event Planen",
+    "ctaSecondary": "Angebot Anfragen",
+    "ctaPackages": "Pakete Ansehen",
+    "locationBadge": "Sitz in Killarney, County Kerry • Verfügbar in Ganz Irland"
+  },
+  "intro": {
+    "tag": "DAS SUNDAY MAISON ERLEBNIS",
+    "title": "Mühelose Eleganz & Unvergessliche Momente",
+    "description": "Wir verbinden Event-Styling, professionelle Beauty, Gourmet-Catering und reibungslose Planung zu ästhetischen, weiblichen und stressfreien Feiern."
+  },
+  "services": {
+    "tag": "UNSERE LEISTUNGEN",
+    "title": "Maßgeschneiderte Event-Erlebnisse",
+    "viewAll": "Alle Leistungen Entdecken",
+    "henParties": {
+      "title": "Junggesellinnenabschiede (Hen Parties)",
+      "desc": "Luxuriöse Mädels-Feiern, Braut-Wochenenden und unvergessliche JGA-Erlebnisse, perfekt in Szene gesetzt.",
+      "items": ["Gestalteter Tisch-Setup", "Luftballons & Fotowand", "Willkommens-Drink-Station", "Grazing-Tisch / Brunch", "Spiele & Entertainment", "Beauty & Glamour-Touch", "Fotografen-Momente", "Unterkunfts-Styling"]
+    },
+    "bridalEvents": {
+      "title": "Braut-Events",
+      "desc": "Elegante Braut-Morgen, Brunches und Hochzeitsvorbereitungen mit liebevollen Details und Luxus.",
+      "items": ["Braut-Morgen-Styling", "Make-up & Haare", "Frühstück & Brunch-Setup", "Champagner-Station", "Personalisierte Bademäntel", "Fotografen-Koordination", "Ruhige Stressfreie Atmosphäre"]
+    },
+    "privateCelebrations": {
+      "title": "Private Feiern",
+      "desc": "Intime Geburtstage, Mädelsabende, private Chefkoch-Dinner, Luxus-Picknicks und Jubiläen.",
+      "items": ["Individuelles Tisch-Styling", "Speisen & Getränke Setup", "Kerzen & Blumendekor", "Ballon-Installationen", "Private Chefkoch Option", "Musik & Unterhaltung", "Fotogene Dekoration"]
+    }
+  },
+  "whyChooseUs": {
+    "tag": "WARUM SUNDAY MAISON",
+    "title": "Warum Sie Mit Uns Feiern Sollten",
+    "items": [
+      { "title": "Komplettservice-Planung", "desc": "Vom Konzept bis zum Abbau managen wir jedes Detail reibungslos." },
+      { "title": "Beauty, Styling & Catering Aus Einer Hand", "desc": "Kein lästiges Koordinieren von 5 verschiedenen Dienstleistern." },
+      { "title": "100% Stressfrei", "desc": "Sie reisen einfach an, entspannen sich, feiern und genießen." },
+      { "title": "Ästhetisch & Social-Media-Ready", "desc": "Jedes Setup ist perfekt für wunderschöne Fotos auf Instagram & TikTok." },
+      { "title": "Personalisierte Details", "desc": "Individuelle Beschilderung für die Braut und maßgeschneiderte Farbwelten." },
+      { "title": "Herzlicher & Feminin Geführter Service", "desc": "Wir verstehen feminine Feiern und betreuen jedes Event wie unser eigenes." }
+    ]
+  },
+  "packages": {
+    "tag": "EVENT-PAKETE",
+    "title": "Unsere Kuratierten Feier-Pakete",
+    "subtitle": "Preise variieren je nach Gästeanzahl, Standort, Dekorationsaufwand und gewählten Zusatzleistungen.",
+    "startingFrom": "Ab",
+    "mostPopular": "Beliebtestes Paket",
+    "viewDetails": "Paket-Details Ansehen",
+    "customQuoteNote": "Individuelle Pakete auf Anfrage erhältlich. Anfahrtsgebühren außerhalb von Killarney / Co. Kerry können anfallen.",
+    "essential": {
+      "name": "Essential Experience",
+      "subtitle": "Ein wunderschönes gestyltes Erlebnis für intime Mädelsrunden, kleine JGAs, Geburtstage und Braut-Brunches.",
+      "guests": "Geeignet für bis zu 6 Gäste",
+      "extraGuest": "Zusätzliche Gäste ab 45€–65€ pro Person",
+      "includes": [
+        "Gestalteter Tisch-Setup oder Luxus-Picknick im Innenbereich",
+        "Sanfte Deko-Details, Kerzen, Luxus-Geschirr & Servietten",
+        "Dezente florale Akzente",
+        "Willkommens-Getränkestation",
+        "Leichtes Grazing-Board oder süße Leckereien",
+        "Basis-Ballondekor oder Mini-Fotowand",
+        "Aufbau, Styling und einfaches Aufräumen nach dem Event"
+      ],
+      "addons": ["Make-up & Haar-Styling", "Fotograf", "Personalisierte Braut-Deko", "Zusätzliches Grazing / Brunch Menu", "Content Video Reels Paket"]
+    },
+    "signature": {
+      "name": "Signature Experience",
+      "subtitle": "Unser beliebtester Bestseller für stilvolle JGAs, Braut-Brunches und gehobene Mädels-Wochenenden.",
+      "guests": "Geeignet für bis zu 10 Gäste",
+      "extraGuest": "Zusätzliche Gäste ab 75€–95€ pro Person",
+      "includes": [
+        "Komplett gestyltes Tablescape mit Premium-Deko-Konzept",
+        "Ballon-Styling & individuelle Fotowand-Installation",
+        "Kerzen, frische Blumen & luxuriöse personalisierte Details",
+        "Gourmet-Grazing-Tisch oder Brunch-Catering",
+        "Willkommens-Getränke-Setup & Prosecco-Styling",
+        "Personalisierte Details für die angehende Braut",
+        "Interaktive Spiele & kleine Entertainment-Elemente",
+        "Beauty-Touch für Braut/VIP (Haare oder Make-up)",
+        "Styling am Event-Tag, Aufbau & vollständige Koordination",
+        "Perfekte Fotomomente für Instagram & TikTok"
+      ],
+      "addons": ["Komplett-Styling für die Gruppe", "Fotograf / Videograf", "Privatkoch-Dinner", "Transport-Koordination", "Unterkunfts-Styling", "Kater-Brunch", "Champagner-Turm", "Personalisierte Bademäntel"]
+    },
+    "luxury": {
+      "name": "Luxury Experience",
+      "subtitle": "Ein maßgeschneidertes Luxus-Erlebnis für unvergessliche JGA-Wochenenden, Braut-Feiern, private Dinner und Ausflüge.",
+      "guests": "Geeignet für 12 bis 15 Gäste",
+      "extraGuest": "Zusätzliche Gäste ab 110€–150€ pro Person",
+      "includes": [
+        "Individuelles Event-Konzept & vollständiges Luxus-Styling",
+        "Große Tafel mit erstklassigem Geschirr & edler Bettwäsche/Tischwäsche",
+        "Große Ballon-, Blumen- & Fotowand-Installation",
+        "Exklusives Gourmet-Grazing oder Privatkoch-Erlebnis",
+        "Beauty-Services für die Braut + ausgewählte VIP-Gäste",
+        "Personalisierte Details, Papeterie & Gastgeschenke",
+        "Willkommens-Drinks & Prosecco / Champagner Styling",
+        "Fotografen-Koordination oder kurze Content-Session",
+        "Vollständige Planung vorab & Dienstleister-Koordination",
+        "Vollständiger Aufbau, Betreuung am Event-Tag & Abbau"
+      ],
+      "addons": ["Privatkoch-Mehrgang-Dinner", "Champagner-Turm", "Fotograf & Videograf", "Bootsausflug / Lokale Aktivitäten", "Luxus-Transport", "Vollständiges Glamour-Styling aller Gäste", "Kater-Brunch am nächsten Morgen", "Komplette Wochenend-Reiseplanung"]
+    },
+    "mini": {
+      "name": "Mini Styling Setup",
+      "subtitle": "Verfügbar für kleine Indoor-Setups, Heiratsanträge, intime Geburtstage oder Foto-Shoots.",
+      "price": "Ab 450€",
+      "note": "Nur auf Anfrage verfügbar."
+    }
+  },
+  "howItWorks": {
+    "tag": "UNSER ABLAUF",
+    "title": "Wie Es Funktioniert",
+    "steps": [
+      { "num": "01", "title": "Anfrage", "desc": "Erzählen Sie uns von Ihrem Event, Datum, Ort, Gästeanzahl und Ihren Wünschen." },
+      { "num": "02", "title": "Beratung", "desc": "Wir besprechen Ihre Vision, Ihr Budget sowie Beauty- & Styling-Vorlieben." },
+      { "num": "03", "title": "Angebot", "desc": "Wir erstellen ein individuelles Angebot und ein ästhetisches Moodboard." },
+      { "num": "04", "title": "Planung", "desc": "Wir organisieren alle Details, Dienstleister, Zeitplan und Aufbau." },
+      { "num": "05", "title": "Event-Tag", "desc": "Sie reisen an, entspannen sich und genießen den Tag in vollen Zügen." }
+    ]
+  },
+  "gallery": {
+    "tag": "PORTFOLIO",
+    "title": "Unsere Event-Galerie",
+    "filterAll": "Alle",
+    "filterHen": "JGAs / Hen Parties",
+    "filterBridal": "Braut-Events",
+    "filterPrivate": "Private Feiern",
+    "filterFood": "Food & Styling",
+    "filterBehind": "Hinter den Kulissen"
+  },
+  "about": {
+    "tag": "DIE MARKE",
+    "title": "Über Sunday Maison",
+    "text1": "Sunday Maison ist eine von Frauen geführte Event-Marke mit Sitz in Irland, die gegründet wurde, um Beauty, Gourmet-Gastronomie, feines Styling und warme Atmosphäre zu vereinen.",
+    "text2": "Mit langjähriger Erfahrung in den Bereichen Beauty und Gastfreundschaft wissen wir genau, wie wichtig es ist, dass jedes Detail persönlich, elegant und völlig stressfrei wirkt.",
+    "values": [
+      { "title": "Von Frauen Geführte Leidenschaft", "desc": "Mit Wärme, weiblichem Gespür und Liebe zum kleinsten Detail kreiert." },
+      { "title": "Synergie Aus Beauty & Styling", "desc": "Professionelles Make-up und Haare direkt im Event-Design integriert." },
+      { "title": "Stressfrei-Garantie", "desc": "Sie erscheinen einfach, sehen umwerfend aus und feiern unbeschwert." }
+    ]
+  },
+  "contact": {
+    "tag": "KONTAKT",
+    "title": "Planen Sie Ihr Traum-Event",
+    "subtitle": "Bereit, Ihre Feier zum Leben zu erwecken? Füllen Sie das Formular aus oder kontaktieren Sie uns direkt per WhatsApp / Instagram.",
+    "form": {
+      "name": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefon / WhatsApp",
+      "date": "Event-Datum",
+      "location": "Veranstaltungsort (z.B. Killarney, Dublin, Galway)",
+      "type": "Art des Events",
+      "guests": "Gästeanzahl",
+      "package": "Gewünschtes Paket",
+      "budget": "Geschätztes Budget",
+      "message": "Erzählen Sie uns von Ihren Wünschen...",
+      "send": "Anfrage Senden",
+      "types": {
+        "hen": "Junggesellinnenabschied (Hen Party)",
+        "bridal": "Braut-Event / Morgen",
+        "birthday": "Geburtstagsfeier",
+        "dinner": "Privates Chefkoch-Dinner",
+        "picnic": "Luxus-Picknick",
+        "other": "Sonstiges Privates Event"
+      },
+      "packagesList": {
+        "essential": "Essential Experience (ab 750€)",
+        "signature": "Signature Experience (ab 1.650€)",
+        "luxury": "Luxury Experience (ab 3.500€)",
+        "mini": "Mini Styling Setup (ab 450€)",
+        "custom": "Individuelles Maßpaket"
+      }
+    },
+    "info": {
+      "title": "Direkter Kontakt",
+      "location": "Standort: Killarney, Co. Kerry, Irland (Verfügbar in ganz Irland)",
+      "email": "E-Mail: sundaymaison.events@gmail.com",
+      "instagram": "Instagram: @sundaymaison.events",
+      "whatsapp": "Direkter WhatsApp-Chat"
+    }
+  },
+  "footer": {
+    "tagline": "Wir kreieren wunderschöne, stressfreie Erlebnisse in ganz Irland.",
+    "quickLinks": "Schnelllinks",
+    "contactHeader": "Kontakt",
+    "rights": "Alle Rechte vorbehalten. Sunday Maison Events Irland."
+  }
+}

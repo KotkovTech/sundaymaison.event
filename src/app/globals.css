@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Montserrat', sans-serif;
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+
+  --color-cream: #FAF7F2;
+  --color-beige: #F0E6D6;
+  --color-champagne: #F5E6C8;
+  --color-nude: #E8D5C4;
+  --color-gold: #C9A96E;
+  --color-gold-hover: #B59458;
+  --color-gold-light: #E5D5B5;
+  --color-charcoal: #2C2623;
+  --color-warm-dark: #1F1916;
+  --color-soft-rose: #FDF2F8;
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-sm: calc(var(--radius) * 0.6);
+}
+
+:root {
+  --background: #FAF7F2;
+  --foreground: #2C2623;
+  --card: #FFFDF9;
+  --card-foreground: #2C2623;
+  --popover: #FFFDF9;
+  --popover-foreground: #2C2623;
+  --primary: #C9A96E;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F0E6D6;
+  --secondary-foreground: #2C2623;
+  --muted: #F5E6C8;
+  --muted-foreground: #6B5B4E;
+  --accent: #E8D5C4;
+  --accent-foreground: #1F1916;
+  --destructive: #991B1B;
+  --border: #E8D5C4;
+  --input: #E8D5C4;
+  --ring: #C9A96E;
+  --radius: 0.75rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FAF7F2;
+  color: #2C2623;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #FAF7F2;
+  color: #2C2623;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.glass-header {
+  background: rgba(250, 247, 242, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(201, 169, 110, 0.2);
+}
+
+.glass-card {
+  background: rgba(255, 253, 249, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(201, 169, 110, 0.25);
+  box-shadow: 0 10px 30px -10px rgba(44, 38, 35, 0.05);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #B59458 0%, #C9A96E 50%, #E5D5B5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #C9A96E 0%, #B59458 100%);
+}
+
+.shimmer-gold {
+  box-shadow: 0 0 20px rgba(201, 169, 110, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A96E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B59458;
+}
