@@ -126,7 +126,7 @@ export function KilleenNextPage({ locale }: { locale: string }) {
       <section className="relative min-h-[90vh] flex flex-col justify-center items-center px-4 py-20 overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center brightness-[0.45] scale-105 transition-transform duration-1000"
-          style={{ backgroundImage: `linear-gradient(to bottom, rgba(4,13,9,0.6), rgba(4,13,9,0.95)), url('/sites/killeen-house/assets/images/killeen_building.jpg')` }}
+          style={{ backgroundImage: `linear-gradient(to bottom, rgba(4,13,9,0.6), rgba(4,13,9,0.95)), url('/sites/killeen-house/assets/images/killeen_sunset_facade.jpg')` }}
         />
 
         <div className="relative z-10 max-w-5xl mx-auto text-center space-y-6 pt-8">

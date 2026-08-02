@@ -33,7 +33,7 @@ export function MasterPortalNextPage({ locale }: { locale: string }) {
       title: 'Killeen House Hotel',
       subtitle: '19th-Century Estate & Rozzers Fine Dining',
       desc: 'Stately Manor Green & Vintage Gold estate in Aghadoe. Home to award-winning Rozzers Fine Dining Restaurant and the world-famous 9,000+ Golf Ball Bar.',
-      img: '/sites/assets/killeen_facade.jpg',
+      img: '/sites/assets/killeen_sunset_facade.jpg',
       url: `/${locale}/killeen`,
       externalUrl: 'https://kotkovtech.github.io/killeen-house-hotel/',
       badge: 'Fine Dining & Golf'
