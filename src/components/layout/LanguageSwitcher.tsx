@@ -43,7 +43,7 @@ export function LanguageSwitcher({ currentLocale }: LanguageSwitcherProps) {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-[#FAF7F2] text-[#2C2623] border border-[#C9A96E]/30 hover:border-[#C9A96E] hover:bg-[#F5E6C8]/40 transition-all duration-200 cursor-pointer shadow-xs"
+        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-[#FAF7F2] text-[#2C2623] border border-[#C9A96E]/30 hover:border-[#C9A96E] hover:bg-[#F5E6C8]/40 transition-all duration-200 cursor-pointer shadow-xs whitespace-nowrap"
         aria-expanded={isOpen}
         aria-label="Select language"
       >

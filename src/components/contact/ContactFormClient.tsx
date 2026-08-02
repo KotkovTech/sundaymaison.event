@@ -28,7 +28,7 @@ export function ContactFormClient({ dict }: ContactFormClientProps) {
           >
             <div className="flex items-center justify-between">
               <span className="text-[10px] font-sans uppercase tracking-widest text-[#C9A96E] font-semibold">
-                Email Us
+                {dict.contact.emailUs || 'Email Us'}
               </span>
               <Mail className="w-5 h-5 text-[#C9A96E] group-hover:scale-110 transition-transform" />
             </div>
@@ -37,7 +37,7 @@ export function ContactFormClient({ dict }: ContactFormClientProps) {
                 sundaymaison.events@gmail.com
               </p>
               <p className="text-xs font-sans text-[#6B5B4E] mt-1">
-                For detailed inquiries & quotes
+                {dict.contact.forInquiries || 'For detailed inquiries & quotes'}
               </p>
             </div>
           </a>
@@ -51,7 +51,7 @@ export function ContactFormClient({ dict }: ContactFormClientProps) {
           >
             <div className="flex items-center justify-between">
               <span className="text-[10px] font-sans uppercase tracking-widest text-[#C9A96E] font-semibold">
-                Instagram
+                {dict.contact.instagramTitle || 'Instagram'}
               </span>
               <InstagramIcon className="w-5 h-5 text-[#C9A96E] group-hover:scale-110 transition-transform" />
             </div>
@@ -60,7 +60,7 @@ export function ContactFormClient({ dict }: ContactFormClientProps) {
                 @sundaymaison.events
               </p>
               <p className="text-xs font-sans text-[#6B5B4E] mt-1">
-                Direct messages & portfolio updates
+                {dict.contact.instagramDesc || 'Direct messages & portfolio updates'}
               </p>
             </div>
           </a>
@@ -75,7 +75,7 @@ export function ContactFormClient({ dict }: ContactFormClientProps) {
             className="w-full py-4 px-6 rounded-2xl bg-[#25D366] text-white font-sans text-sm font-semibold tracking-wide flex items-center justify-center gap-3 shadow-lg hover:shadow-xl hover:bg-[#20bd5a] transition-all cursor-pointer"
           >
             <MessageCircle className="w-5 h-5 fill-white" />
-            <span>Chat via WhatsApp Direct</span>
+            <span>{dict.contact.whatsappButton || dict.contact.info.whatsapp || 'Chat via WhatsApp Direct'}</span>
           </a>
         </div>
 
@@ -88,9 +88,9 @@ export function ContactFormClient({ dict }: ContactFormClientProps) {
 
       {/* Booking Note */}
       <div className="p-6 rounded-2xl bg-[#F0E6D6]/40 border border-[#C9A96E]/20 text-xs font-sans text-[#6B5B4E] text-center leading-relaxed space-y-1">
-        <p className="font-semibold text-[#2C2623]">Important Booking Note:</p>
+        <p className="font-semibold text-[#2C2623]">{dict.contact.bookingNoteTitle || 'Important Booking Note:'}</p>
         <p>
-          Final pricing depends on guest headcount, location, styling depth, and selected add-ons. Travel fees may apply outside Killarney / County Kerry. A deposit is required to secure your requested date.
+          {dict.contact.bookingNoteText || 'Final pricing depends on guest headcount, location, styling depth, and selected add-ons. Travel fees may apply outside Killarney / County Kerry. A deposit is required to secure your requested date.'}
         </p>
       </div>
     </div>

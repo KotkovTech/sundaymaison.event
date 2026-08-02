@@ -18,19 +18,19 @@ export function ServicesPreview({ dict, locale }: ServicesPreviewProps) {
       key: 'henParties',
       data: dict.services.henParties,
       image: '/gallery/gallery_1.jpg',
-      badge: 'Popular Choice',
+      badge: dict.services.badges?.hen || 'Popular Choice',
     },
     {
       key: 'bridalEvents',
       data: dict.services.bridalEvents,
       image: '/gallery/gallery_14.jpg',
-      badge: 'Bridal Morning',
+      badge: dict.services.badges?.bridal || 'Bridal Morning',
     },
     {
       key: 'privateCelebrations',
       data: dict.services.privateCelebrations,
       image: '/gallery/gallery_4.jpg',
-      badge: 'Birthdays & Picnics',
+      badge: dict.services.badges?.private || 'Birthdays & Picnics',
     },
   ];
 

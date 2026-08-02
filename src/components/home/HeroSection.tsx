@@ -101,7 +101,7 @@ export function HeroSection({ dict, locale }: HeroSectionProps) {
         onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}
       >
         <span className="text-[11px] font-sans uppercase tracking-[0.25em] text-[#C9A96E] font-medium group-hover:text-white transition-colors">
-          Scroll Down
+          {dict.hero.scrollDown || 'Scroll Down'}
         </span>
         {/* Animated Custom Arrow Badge */}
         <div className="w-10 h-10 rounded-full bg-black/40 backdrop-blur-md border border-[#C9A96E]/50 group-hover:border-[#C9A96E] group-hover:bg-[#C9A96E]/20 flex items-center justify-center shadow-lg transition-all duration-300">

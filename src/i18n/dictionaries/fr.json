@@ -16,43 +16,99 @@
     "ctaPrimary": "Planifier votre Événement",
     "ctaSecondary": "Demander un Devis",
     "ctaPackages": "Découvrir les Formules",
-    "locationBadge": "Basé à Killarney, Comté de Kerry • Disponible dans toute l'Irlande"
+    "locationBadge": "Basé à Killarney, Comté de Kerry • Disponible dans toute l'Irlande",
+    "scrollDown": "Défiler vers le bas"
   },
   "intro": {
     "tag": "L'EXPÉRIENCE SUNDAY MAISON",
     "title": "Élégance Naturelle & Moments Inoubliables",
-    "description": "Nous associons styling d'événement, beauté professionnelle, catering gourmand et organisation fluide pour créer des célébrations esthétiques, féminines et sans stress."
+    "description": "Nous combinons le styling d'événements, la beauté professionnelle, les buffets gourmands et une organisation fluide pour créer des célébrations esthétiques, féminines et sans stress. Votre rôle est de célébrer — le nôtre est de tout gérer."
   },
   "services": {
     "tag": "NOS SERVICES",
     "title": "Expériences Événementielles Sur Mesure",
     "viewAll": "Voir Tous les Services",
     "henParties": {
-      "title": "Enterrements de Vie de Jeune Fille (EVJF)",
-      "desc": "Week-ends entre filles luxueux, célébrations bridal et expériences EVJF inoubliables scénographiées avec perfection.",
-      "items": ["Décoration de Table", "Ballons & Backdrop", "Station Boissons de Bienvenue", "Table Grazing / Brunch", "Jeux & Animation", "Mise en Beauté & Glamour", "Moments Photographe", "Styling Hébergement"]
+      "title": "Enterrements de Vie de Jeune Fille",
+      "desc": "Célébrations haut de gamme entre amies et week-ends sur mesure parfaitement stylisés.",
+      "items": [
+        "Table Décorée",
+        "Ballons & Fond Photo",
+        "Bar de Bienvenue",
+        "Buffet Grazing / Brunch",
+        "Jeux & Animations",
+        "Touche Beauté & Glamour",
+        "Moments Photographe",
+        "Décoration de l'Hébergement"
+      ]
     },
     "bridalEvents": {
-      "title": "Événements Bridal",
-      "desc": "Matinées bridal élégantes, brunches et préparatifs de mariage créés avec soin et détails luxueux.",
-      "items": ["Styling Matinée Bridal", "Coiffure & Maquillage", "Buffet Petit-Déjeuner & Brunch", "Station Champagne", "Peignoirs Personnalisés", "Coordination Photographe", "Atmosphère Serine & Sans Stress"]
+      "title": "Événements de Mariée",
+      "desc": "Matinées de mariée élégantes, brunches et préparatifs nupitaux créés avec délicatesse.",
+      "items": [
+        "Styling Matinée de Mariée",
+        "Coiffure & Maquillage",
+        "Mise en Place Petit-Déjeuner & Brunch",
+        "Bar à Champagne",
+        "Peignoirs & Détails Personnalisés",
+        "Coordination Photographe",
+        "Atmosphère Sereine & Sans Stress"
+      ]
     },
     "privateCelebrations": {
       "title": "Célébrations Privées",
-      "desc": "Anniversaires intimes, soirées entre filles, dîners privés avec chef, pique-niques de luxe et moments d'exception.",
-      "items": ["Design de Table Sur Mesure", "Buffet & Boissons", "Bougies & Compositions Florales", "Installations de Ballons", "Options Chef Privé", "Musique & Animations", "Décoration Photo-Friendly"]
+      "desc": "Anniversaires intimes, soirées entre amies, dîners privés et piqueniques de luxe.",
+      "items": [
+        "Décoration de Table Sur Mesure",
+        "Buffet & Boissons",
+        "Bougies & Compositions Florales",
+        "Installations de Ballons",
+        "Options Chef Privé",
+        "Musique & Divertissement",
+        "Décor Idéal pour Photos"
+      ]
+    },
+    "pageSubtitle": "Nous réunissons beauté, décoration, gastronomie et coordination sous un même toit. Découvrez nos offres sur mesure.",
+    "longDescHen": "Enterrements de vie de jeune fille et week-ends entre amies magnifiquement stylisés à travers l'Irlande. Nous associons tables raffinées, signalétique personnalisée pour la mariée, créations de ballons, buffets gourmands, boissons d'accueil et mises en beauté optionnelles pour que vous profitiez sereinement.",
+    "longDescBridal": "Matinées de mariage élégantes, brunches pré-nuptiaux et préparatifs créés avec un soin délicat. Des bars à champagne à la coiffure et au maquillage de la mariée, en passant par les peignoirs personnalisés et les fleurs, nous veillons à ce que la mariée se sente détendue et choyée.",
+    "longDescPrivate": "Anniversaires intimes, dîners avec chef privé, piqueniques de luxe et soirées entre amies. Nous créons des atmosphères sur mesure avec bougies, fleurs, mets raffinés et détails élégants selon vos envies.",
+    "servicePrefix": "Service",
+    "whatsIncluded": "Ce qui est inclus :",
+    "inquirePrefix": "Demander pour",
+    "badges": {
+      "hen": "Choix Populaire",
+      "bridal": "Matinée de Mariée",
+      "private": "Anniversaires & Piqueniques"
     }
   },
   "whyChooseUs": {
     "tag": "POURQUOI SUNDAY MAISON",
     "title": "Pourquoi Célébrer Avec Nous",
     "items": [
-      { "title": "Organisation Complète", "desc": "Du concept au rangement final, nous gérons chaque détail de manière fluide." },
-      { "title": "Beauté, Styling & Catering Intégrés", "desc": "Pas besoin de coordonner 5 prestataires différents. Nous réunissons tout." },
-      { "title": "100% Sans Stress", "desc": "Vous avez juste à arriver, vous détendre, célébrer et créer des souvenirs." },
-      { "title": "Esthétique & Prêt pour les Réseaux", "desc": "Chaque mise en scène est pensée pour des photos sublimes sur Instagram & TikTok." },
-      { "title": "Détails Personnalisés", "desc": "Signalétique sur mesure pour la mariée et palettes de couleurs personnalisées." },
-      { "title": "Service Féminin & Attentionné", "desc": "Nous comprenons la sensibilité des événements féminins et traitons chaque fête comme la nôtre." }
+      {
+        "title": "Organisation Complète",
+        "desc": "Du concept au rangement final, nous gérons chaque détail de manière fluide."
+      },
+      {
+        "title": "Beauté, Styling & Catering Intégrés",
+        "desc": "Pas besoin de coordonner 5 prestataires différents. Nous réunissons tout."
+      },
+      {
+        "title": "100% Sans Stress",
+        "desc": "Vous avez juste à arriver, vous détendre, célébrer et créer des souvenirs."
+      },
+      {
+        "title": "Esthétique & Prêt pour les Réseaux",
+        "desc": "Chaque mise en scène est pensée pour des photos sublimes sur Instagram & TikTok."
+      },
+      {
+        "title": "Détails Personnalisés",
+        "desc": "Signalétique sur mesure pour la mariée et palettes de couleurs personnalisées."
+      },
+      {
+        "title": "Service Féminin & Attentionné",
+        "desc": "Nous comprenons la sensibilité des événements féminins et traitons chaque fête comme la nôtre."
+      }
     ]
   },
   "packages": {
@@ -77,7 +133,13 @@
         "Détail ballons basique ou mini backdrop",
         "Installation, styling et rangement après événement"
       ],
-      "addons": ["Maquillage & Coiffure", "Photographe", "Déco Personnalisée Bride-to-be", "Menu Grazing / Brunch Supplémentaire", "Pack Vidéo Reels Instagram"]
+      "addons": [
+        "Maquillage & Coiffure",
+        "Photographe",
+        "Déco Personnalisée Bride-to-be",
+        "Menu Grazing / Brunch Supplémentaire",
+        "Pack Vidéo Reels Instagram"
+      ]
     },
     "signature": {
       "name": "Signature Experience",
@@ -96,7 +158,16 @@
         "Styling le jour J, installation & coordination complète",
         "Moments parfaits pour Instagram & TikTok"
       ],
-      "addons": ["Mise en beauté groupe complète", "Photographe / Vidéaste", "Dîner Chef Privé", "Coordination transports", "Styling de l'hébergement", "Brunch du lendemain", "Tour de Champagne", "Peignoirs personnalisés"]
+      "addons": [
+        "Mise en beauté groupe complète",
+        "Photographe / Vidéaste",
+        "Dîner Chef Privé",
+        "Coordination transports",
+        "Styling de l'hébergement",
+        "Brunch du lendemain",
+        "Tour de Champagne",
+        "Peignoirs personnalisés"
+      ]
     },
     "luxury": {
       "name": "Luxury Experience",
@@ -115,35 +186,196 @@
         "Accompagnement organisationnel complet & gestion des prestataires",
         "Installation complète, régie le jour J et rangement"
       ],
-      "addons": ["Dîner gastronomique Chef Privé", "Tour de Champagne", "Photographe & vidéaste dédié", "Excursion en bateau / expérience locale", "Transport de luxe", "Mise en beauté intégrale invités", "Brunch de récupération le lendemain", "Planning complet du week-end"]
+      "addons": [
+        "Dîner gastronomique Chef Privé",
+        "Tour de Champagne",
+        "Photographe & vidéaste dédié",
+        "Excursion en bateau / expérience locale",
+        "Transport de luxe",
+        "Mise en beauté intégrale invités",
+        "Brunch de récupération le lendemain",
+        "Planning complet du week-end"
+      ]
     },
     "mini": {
       "name": "Mini Styling Setup",
       "subtitle": "Disponible pour petites installations d'intérieur, demandes en mariage, anniversaires intimes ou shootings photo.",
       "price": "À partir de 450€",
       "note": "Disponible uniquement sur demande."
-    }
+    },
+    "inclusionsHeader": "Inclusions du Package :",
+    "addonsHeader": "Options Suppléments Populaires :",
+    "inquirePrefix": "Demander pour",
+    "optionalSetup": "Petite Installation Optionnelle",
+    "inquireMini": "Demander le Mini Setup",
+    "customiseTag": "PERSONNALISEZ VOTRE EXPÉRIENCE",
+    "addOnsTitle": "Options Événementielles Supplémentaires",
+    "termsTitle": "Conditions Importantes & Réservation",
+    "terms": [
+      "Le tarif final dépend du nombre d'invités, du lieu et des options choisies.",
+      "Frais de déplacement applicables hors de Killarney / Comté de Kerry.",
+      "Les packages sur mesure sont entièrement adaptés à vos envies et votre budget.",
+      "Location de lieu, hébergement et transports tiers non inclus sauf mention contraire.",
+      "Un acompte est nécessaire pour confirmer la réservation de la date.",
+      "L'installation, la décoration et le rangement après événement sont inclus dans les formules."
+    ],
+    "addOnCategories": [
+      {
+        "title": "Beauté & Glamour",
+        "items": [
+          {
+            "name": "Service Maquillage",
+            "price": "de 80 € à 130 € par personne"
+          },
+          {
+            "name": "Service Coiffure",
+            "price": "de 80 € à 130 € par personne"
+          },
+          {
+            "name": "Formule Glamour Mariée / VIP",
+            "price": "à partir de 180 €"
+          },
+          {
+            "name": "Formule Beauté Groupe Complet",
+            "price": "devis sur mesure"
+          }
+        ]
+      },
+      {
+        "title": "Restauration & Traiteur",
+        "items": [
+          {
+            "name": "Menu Grazing Extra / Brunch",
+            "price": "de 25 € à 45 € par personne"
+          },
+          {
+            "name": "Buffet Grazing de Luxe",
+            "price": "devis sur mesure"
+          },
+          {
+            "name": "Dîner Gastronomique Chef Privé",
+            "price": "de 60 € à 100 €+ par personne"
+          },
+          {
+            "name": "Brunch Lendemain de Fête",
+            "price": "de 35 € à 65 € par personne"
+          }
+        ]
+      },
+      {
+        "title": "Décoration & Ambiance",
+        "items": [
+          {
+            "name": "Arche / Installation Ballons",
+            "price": "à partir de 150 €"
+          },
+          {
+            "name": "Compositions Florales Fraîches",
+            "price": "de 150 € à 300 €+"
+          },
+          {
+            "name": "Signalétique Personnalisée Mariée",
+            "price": "à partir de 80 €"
+          },
+          {
+            "name": "Fond Photo de Luxe",
+            "price": "à partir de 200 €+"
+          },
+          {
+            "name": "Pyramide à Champagne Stylisée",
+            "price": "à partir de 120 €"
+          }
+        ]
+      },
+      {
+        "title": "Contenu & Photographie",
+        "items": [
+          {
+            "name": "Photographe Professionnel",
+            "price": "de 150 € à 500 €+"
+          },
+          {
+            "name": "Vidéaste / Créateur Réseaux Sociaux",
+            "price": "devis sur mesure"
+          },
+          {
+            "name": "Pack Reels Instagram & TikTok",
+            "price": "à partir de 80 €"
+          },
+          {
+            "name": "Corner Appareil Polaroid / Instantané",
+            "price": "à partir de 60 €"
+          }
+        ]
+      },
+      {
+        "title": "Expériences Supplémentaires",
+        "items": [
+          {
+            "name": "Peignoirs / Pyjamas en Soie Personnalisés",
+            "price": "devis sur mesure"
+          },
+          {
+            "name": "Pack Jeux EVJF Interactifs",
+            "price": "à partir de 50 €"
+          },
+          {
+            "name": "Coordination Transports de Luxe",
+            "price": "devis sur mesure"
+          },
+          {
+            "name": "Décoration de l'Hébergement",
+            "price": "à partir de 150 €"
+          },
+          {
+            "name": "Planning et Itinéraire du Week-end",
+            "price": "à partir de 200 €"
+          }
+        ]
+      }
+    ]
   },
   "howItWorks": {
     "tag": "NOTRE DÉMARCHE",
     "title": "Comment Ça Marche",
     "steps": [
-      { "num": "01", "title": "Demande", "desc": "Parlez-nous de votre événement, date, lieu, nombre d'invités et ambiance souhaitée." },
-      { "num": "02", "title": "Consultation", "desc": "Nous échangeons sur vos idées, votre budget et vos envies beauté & décoration." },
-      { "num": "03", "title": "Proposition", "desc": "Nous préparons un devis personnalisé et un moodboard esthétique." },
-      { "num": "04", "title": "Planification", "desc": "Nous organisons chaque détail, prestataires, planning et installation." },
-      { "num": "05", "title": "Le Jour J", "desc": "Vous arrivez, vous vous détendez et vous profitez pleinement du moment." }
+      {
+        "num": "01",
+        "title": "Demande",
+        "desc": "Parlez-nous de votre événement, date, lieu, nombre d'invités et ambiance souhaitée."
+      },
+      {
+        "num": "02",
+        "title": "Consultation",
+        "desc": "Nous échangeons sur vos idées, votre budget et vos envies beauté & décoration."
+      },
+      {
+        "num": "03",
+        "title": "Proposition",
+        "desc": "Nous préparons un devis personnalisé et un moodboard esthétique."
+      },
+      {
+        "num": "04",
+        "title": "Planification",
+        "desc": "Nous organisons chaque détail, prestataires, planning et installation."
+      },
+      {
+        "num": "05",
+        "title": "Le Jour J",
+        "desc": "Vous arrivez, vous vous détendez et vous profitez pleinement du moment."
+      }
     ]
   },
   "gallery": {
     "tag": "PORTFOLIO",
     "title": "Galerie d'Événements",
     "filterAll": "Tout",
-    "filterHen": "EVJF / Hen Parties",
-    "filterBridal": "Événements Bridal",
-    "filterPrivate": "Célébrations Privées",
-    "filterFood": "Food & Styling",
-    "filterBehind": "Coulisses"
+    "filterHen": "EVJF / Fêtes entre Filles",
+    "filterBridal": "Événements de Mariée",
+    "filterPrivate": "Fêtes Privées",
+    "filterFood": "Buffets & Décoration",
+    "filterBehind": "Coulisses",
+    "pageSubtitle": "Découvrez nos véritables scénographies, détails élégants, buffets gourmands et moments de fête."
   },
   "about": {
     "tag": "L'ESPRIT DU BRAND",
@@ -151,10 +383,25 @@
     "text1": "Sunday Maison est une marque événementielle fondée par des femmes en Irlande, créée pour réunir beauté, gastronomie gourmande, décoration raffinée et atmosphère chaleureuse.",
     "text2": "Fortes d'une expérience dans la beauté et l'hôtellerie, nous savons combien chaque détail compte pour que votre événement soit élégant, personnel et sans le moindre stress.",
     "values": [
-      { "title": "Passion Féminine", "desc": "Une création avec bienveillance, sensibilité féminine et souci du détail." },
-      { "title": "Synergie Beauté & Déco", "desc": "Coiffure et maquillage professionnels directement intégrés au styling." },
-      { "title": "Promesse Zero Stress", "desc": "Vous n'avez qu'à arriver, être resplendissante et faire la fête." }
-    ]
+      {
+        "title": "Passion Féminine",
+        "desc": "Une création avec bienveillance, sensibilité féminine et souci du détail."
+      },
+      {
+        "title": "Synergie Beauté & Déco",
+        "desc": "Coiffure et maquillage professionnels directement intégrés au styling."
+      },
+      {
+        "title": "Promesse Zero Stress",
+        "desc": "Vous n'avez qu'à arriver, être resplendissante et faire la fête."
+      }
+    ],
+    "pageSubtitle": "Nous associons beauté, gastronomie, décoration et atmosphère pour faire de chaque événement un moment magique, élégant et sans contrainte.",
+    "locationBanner": "Killarney, Comté de Kerry • Intervention dans toute l'Irlande",
+    "heading2": "Créateurs d'Expériences de Luxe Sans Stress",
+    "bodyParagraph1": "Sunday Maison est une marque événementielle dirigée par des femmes, née d'une passion pour l'esthétique raffinée, l'hospitalité irlandaise et l'univers de la beauté.",
+    "bodyParagraph2": "Fortes d'une solide expérience dans le secteur de la beauté et de l'hôtellerie, nous savons combien l'organisation d'un événement peut s'avérer complexe. Notre mission est simple : prendre soin de chaque détail afin que l'hôte et ses invités n'aient plus qu'à profiter et célébrer.",
+    "startPlanning": "Commencer à Planifier"
   },
   "contact": {
     "tag": "CONTACT",
@@ -174,10 +421,10 @@
       "send": "Envoyer la Demande",
       "types": {
         "hen": "Enterrement de Vie de Jeune Fille (EVJF)",
-        "bridal": "Matinée Bridal / Événement Mariée",
-        "birthday": "Anniversaire",
+        "bridal": "Matinée de Mariée / Préparatifs",
+        "birthday": "Fête d'Anniversaire",
         "dinner": "Dîner Privé avec Chef",
-        "picnic": "Pique-Nique de Luxe",
+        "picnic": "Piquenique de Luxe",
         "other": "Autre Événement Privé"
       },
       "packagesList": {
@@ -194,12 +441,61 @@
       "email": "Email: sundaymaison.events@gmail.com",
       "instagram": "Instagram: @sundaymaison.events",
       "whatsapp": "Discussion Directe WhatsApp"
-    }
+    },
+    "emailUs": "Envoyez-nous un Email",
+    "forInquiries": "Pour vos demandes de devis détaillées",
+    "instagramTitle": "Instagram",
+    "instagramDesc": "Messages directs & portfolio",
+    "whatsappButton": "Discuter sur WhatsApp",
+    "bookingNoteTitle": "Note Importante de Réservation :",
+    "bookingNoteText": "Le tarif définitif dépend du nombre d'invités, du lieu et des options choisies. Des frais de déplacement s'appliquent hors du Comté de Kerry. Un acompte est requis pour bloquer la date."
   },
   "footer": {
     "tagline": "Créateur d'expériences magnifiques et sans stress en Irlande.",
     "quickLinks": "Liens Rapides",
     "contactHeader": "Contact",
-    "rights": "Tous droits réservés. Sunday Maison Events Irlande."
+    "rights": "Tous droits réservés. Sunday Maison Events Irlande.",
+    "luxuryEvents": "ÉVÉNEMENTIEL DE LUXE EN IRLANDE",
+    "location": "Killarney, Comté de Kerry, Irlande (Disponible dans toute l'Irlande)",
+    "readyCelebrate": "Prêts à Célébrer ?",
+    "readyDesc": "Laissez-nous organiser votre événement de luxe sans stress en Irlande.",
+    "craftedBy": "Conçu avec ♥ par BlackCat"
+  },
+  "galleryPreview": {
+    "viewPortfolio": "Voir Tout le Portfolio",
+    "followInstagram": "Suivez @sundaymaison.events sur Instagram pour vos inspirations quotidiennes",
+    "items": [
+      {
+        "category": "EVJF",
+        "title": "Table Décorée"
+      },
+      {
+        "category": "Fêtes Privées",
+        "title": "Célébration en Plein Air"
+      },
+      {
+        "category": "Buffet & Déco",
+        "title": "Buffet Gourmand"
+      },
+      {
+        "category": "Mariage",
+        "title": "Détails de Mariage"
+      },
+      {
+        "category": "Mariage",
+        "title": "Champagne & Détails"
+      },
+      {
+        "category": "Fêtes Privées",
+        "title": "Dîner Privé"
+      }
+    ]
+  },
+  "contactCTA": {
+    "tag": "SUNDAY MAISON EVENTS",
+    "whatsapp": "WhatsApp"
+  },
+  "whatsappButton": {
+    "chatWithUs": "Contactez-nous"
   }
 }

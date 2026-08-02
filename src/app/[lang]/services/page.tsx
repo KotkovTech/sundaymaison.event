@@ -39,19 +39,19 @@ export default async function ServicesPage({
       key: 'henParties',
       data: dict.services.henParties,
       image: '/gallery/gallery_1.jpg',
-      longDesc: 'Luxury hen parties and girls\' weekends styled to perfection across Ireland. We combine exquisite table setups, personalized bride-to-be signage, balloon art, gourmet grazing tables, welcome drinks, interactive games, and optional beauty glam (hair & makeup) so you can enjoy every moment stress-free.',
+      longDesc: dict.services.longDescHen || dict.services.henParties.desc,
     },
     {
       key: 'bridalEvents',
       data: dict.services.bridalEvents,
       image: '/gallery/gallery_14.jpg',
-      longDesc: 'Elegant bridal mornings, pre-wedding brunches, and rehearsal gatherings crafted with delicate care. From champagne stations and bridal morning hair & makeup to custom robes, floral styling, and photographer coordination, we ensure the bride feels calm, pampered, and truly special.',
+      longDesc: dict.services.longDescBridal || dict.services.bridalEvents.desc,
     },
     {
       key: 'privateCelebrations',
       data: dict.services.privateCelebrations,
       image: '/gallery/gallery_26.jpg',
-      longDesc: 'Intimate birthdays, milestone anniversaries, private chef dinners, luxury picnics, and girls\' nights. We create bespoke atmospheres with candlelight, floral installations, gourmet food, ambient entertainment, and photo-ready details tailored to your dream theme.',
+      longDesc: dict.services.longDescPrivate || dict.services.privateCelebrations.desc,
     },
   ];
 
@@ -66,7 +66,7 @@ export default async function ServicesPage({
           {dict.services.title}
         </h1>
         <p className="text-sm sm:text-base font-sans text-[#6B5B4E] leading-relaxed max-w-2xl mx-auto">
-          We bring beauty, styling, gourmet dining, and seamless coordination together under one roof. Discover our core celebration offerings.
+          {dict.services.pageSubtitle}
         </p>
         <div className="w-20 h-0.5 bg-[#C9A96E] mx-auto pt-2" />
       </section>
@@ -97,7 +97,7 @@ export default async function ServicesPage({
             <div className={`lg:col-span-6 space-y-6 ${idx % 2 === 1 ? 'lg:order-1' : ''}`}>
               <div className="space-y-2">
                 <span className="text-xs font-sans tracking-widest text-[#C9A96E] uppercase font-semibold">
-                  Service 0{idx + 1}
+                  {dict.services.servicePrefix || 'Service'} 0{idx + 1}
                 </span>
                 <h2 className="text-3xl sm:text-4xl font-serif text-[#2C2623] font-normal">
                   {srv.data.title}
@@ -110,7 +110,7 @@ export default async function ServicesPage({
 
               <div className="space-y-3 pt-2 border-t border-[#F0E6D6]">
                 <h3 className="text-xs font-sans font-semibold uppercase tracking-wider text-[#2C2623]">
-                  What's Included:
+                  {dict.services.whatsIncluded || "What's Included:"}
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                   {srv.data.items.map((item: string, i: number) => (
@@ -128,7 +128,7 @@ export default async function ServicesPage({
                   className="inline-flex items-center gap-2 px-6 py-3 rounded-full gold-gradient-bg text-white text-xs font-sans font-medium tracking-wide shadow-md hover:shadow-lg transition-all cursor-pointer"
                 >
                   <Sparkles className="w-4 h-4" />
-                  <span>Inquire for {srv.data.title}</span>
+                  <span>{dict.services.inquirePrefix || 'Inquire for'} {srv.data.title}</span>
                 </Link>
               </div>
             </div>

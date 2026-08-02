@@ -66,14 +66,14 @@ export function Navbar({ dict, locale }: NavbarProps) {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
+          <nav className="hidden lg:flex items-center gap-3 xl:gap-6 whitespace-nowrap">
             {navLinks.map((link) => {
               const active = isActive(link.href);
               return (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`text-xs xl:text-sm font-sans font-medium tracking-wide transition-colors duration-200 relative py-1 ${
+                  className={`text-xs xl:text-sm font-sans font-medium tracking-wide transition-colors duration-200 relative py-1 whitespace-nowrap ${
                     active
                       ? 'text-[#2C2623] font-semibold'
                       : 'text-[#6B5B4E] hover:text-[#2C2623]'
@@ -89,14 +89,14 @@ export function Navbar({ dict, locale }: NavbarProps) {
           </nav>
 
           {/* Right Actions: Language + CTA + Mobile Toggle */}
-          <div className="flex items-center gap-3 sm:gap-4">
+          <div className="flex items-center gap-2 sm:gap-3 lg:gap-4 shrink-0">
             <LanguageSwitcher currentLocale={locale} />
 
             <Link
               href={`/${locale}/contact/`}
-              className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-full gold-gradient-bg text-white text-xs font-sans font-medium tracking-wide shadow-md hover:shadow-lg hover:opacity-95 transition-all duration-200 cursor-pointer"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-full gold-gradient-bg text-white text-xs font-sans font-medium tracking-wide shadow-md hover:shadow-lg hover:opacity-95 transition-all duration-200 cursor-pointer whitespace-nowrap"
             >
-              <Sparkles className="w-3.5 h-3.5" />
+              <Sparkles className="w-3.5 h-3.5 shrink-0" />
               <span>{dict.nav.planEvent}</span>
             </Link>
 

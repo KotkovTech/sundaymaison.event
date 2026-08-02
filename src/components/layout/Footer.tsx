@@ -23,7 +23,7 @@ export function Footer({ dict, locale }: FooterProps) {
                 SUNDAY MAISON
               </span>
               <p className="text-[10px] uppercase font-sans tracking-widest text-[#C9A96E] mt-0.5">
-                LUXURY EVENTS IRELAND
+                {dict.footer.luxuryEvents || 'LUXURY EVENTS IRELAND'}
               </p>
             </Link>
             <p className="text-xs text-[#E5D5B5]/80 font-sans leading-relaxed">
@@ -96,7 +96,7 @@ export function Footer({ dict, locale }: FooterProps) {
             <ul className="space-y-3 text-xs font-sans text-[#FAF7F2]/80 leading-relaxed">
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#C9A96E] shrink-0 mt-0.5" />
-                <span>Killarney, County Kerry, Ireland (Nationwide Available)</span>
+                <span>{dict.footer.location || 'Killarney, County Kerry, Ireland (Nationwide Available)'}</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-[#C9A96E] shrink-0" />
@@ -122,10 +122,10 @@ export function Footer({ dict, locale }: FooterProps) {
           <div className="bg-[#FAF7F2]/5 rounded-2xl p-5 border border-[#C9A96E]/20 space-y-3">
             <div className="flex items-center gap-2 text-[#C9A96E]">
               <Sparkles className="w-4 h-4" />
-              <span className="font-serif text-sm font-semibold tracking-wide">Ready to Celebrate?</span>
+              <span className="font-serif text-sm font-semibold tracking-wide">{dict.footer.readyCelebrate || 'Ready to Celebrate?'}</span>
             </div>
             <p className="text-xs text-[#FAF7F2]/70 font-sans leading-relaxed">
-              Let us craft your stress-free luxury hen party or bridal event in Ireland.
+              {dict.footer.readyDesc || 'Let us craft your stress-free luxury hen party or bridal event in Ireland.'}
             </p>
             <Link
               href={`/${locale}/contact/`}
@@ -140,9 +140,7 @@ export function Footer({ dict, locale }: FooterProps) {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs font-sans text-[#FAF7F2]/50 gap-4">
           <p>© {new Date().getFullYear()} {dict.footer.rights}</p>
           <div className="flex items-center gap-1">
-            <span>Crafted with</span>
-            <Heart className="w-3.5 h-3.5 text-[#C9A96E] fill-[#C9A96E]" />
-            <span>by BlackCat</span>
+            <span>{dict.footer.craftedBy ? dict.footer.craftedBy : 'Crafted with ♥ by BlackCat'}</span>
           </div>
         </div>
       </div>

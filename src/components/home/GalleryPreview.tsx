@@ -14,7 +14,7 @@ interface GalleryPreviewProps {
 }
 
 export function GalleryPreview({ dict, locale }: GalleryPreviewProps) {
-  const images = [
+  const defaultItems = [
     { src: '/gallery/gallery_1.jpg', alt: 'Styled Table Setup', title: 'Table Styling' },
     { src: '/gallery/gallery_12.jpg', alt: 'Outdoor Celebration', title: 'Girls Weekend' },
     { src: '/gallery/gallery_22.jpg', alt: 'Gourmet Grazing', title: 'Gourmet Grazing' },
@@ -22,6 +22,14 @@ export function GalleryPreview({ dict, locale }: GalleryPreviewProps) {
     { src: '/gallery/gallery_17.jpg', alt: 'Champagne & Details', title: 'Wedding Details' },
     { src: '/gallery/gallery_26.jpg', alt: 'Private Dinner', title: 'Private Dinners' },
   ];
+
+  const rawItems = dict.galleryPreview?.items || defaultItems;
+  const imageSources = ['/gallery/gallery_1.jpg', '/gallery/gallery_12.jpg', '/gallery/gallery_22.jpg', '/gallery/gallery_25.jpg', '/gallery/gallery_17.jpg', '/gallery/gallery_26.jpg'];
+  const images = rawItems.map((item: any, i: number) => ({
+    src: imageSources[i] || '/gallery/gallery_1.jpg',
+    alt: item.title || 'Sunday Maison Event',
+    title: item.title || item.category,
+  }));
 
   return (
     <section className="py-24 bg-[#FFFDF9] border-y border-[#C9A96E]/20 relative">
@@ -40,14 +48,14 @@ export function GalleryPreview({ dict, locale }: GalleryPreviewProps) {
             href={`/${locale}/gallery/`}
             className="inline-flex items-center gap-2 text-xs font-sans font-medium text-[#C9A96E] hover:text-[#B59458] transition-colors"
           >
-            <span>View Full Portfolio</span>
+            <span>{dict.galleryPreview?.viewPortfolio || 'View Full Portfolio'}</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
-          {images.map((img, idx) => (
+          {images.map((img: any, idx: number) => (
             <motion.div
               key={idx}
               initial={{ opacity: 0, scale: 0.95 }}
@@ -78,7 +86,7 @@ export function GalleryPreview({ dict, locale }: GalleryPreviewProps) {
             className="inline-flex items-center gap-2 text-xs font-sans text-[#6B5B4E] hover:text-[#C9A96E] transition-colors"
           >
             <InstagramIcon className="w-4 h-4 text-[#C9A96E]" />
-            <span>Follow @sundaymaison.events on Instagram for daily inspiration</span>
+            <span>{dict.galleryPreview?.followInstagram || 'Follow @sundaymaison.events on Instagram for daily inspiration'}</span>
           </a>
         </div>
       </div>

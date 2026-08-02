@@ -53,7 +53,7 @@ export default async function GalleryPage({
           {dict.gallery.title}
         </h1>
         <p className="text-sm sm:text-base font-sans text-[#6B5B4E] leading-relaxed">
-          Explore our real event setups, luxury styling details, gourmet grazing tables, and celebration moments.
+          {dict.gallery.pageSubtitle || "Explore our real event setups, luxury styling details, gourmet grazing tables, and celebration moments."}
         </p>
         <div className="w-20 h-0.5 bg-[#C9A96E] mx-auto pt-2" />
       </div>

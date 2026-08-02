@@ -45,7 +45,7 @@ export default async function AboutPage({
           {dict.about.title}
         </h1>
         <p className="text-sm sm:text-base font-sans text-[#6B5B4E] leading-relaxed max-w-2xl mx-auto">
-          We combine beauty, food, styling, and atmosphere to make every celebration feel effortless, beautiful, and truly special.
+          {dict.about.pageSubtitle || "We combine beauty, food, styling, and atmosphere to make every celebration feel effortless, beautiful, and truly special."}
         </p>
         <div className="w-20 h-0.5 bg-[#C9A96E] mx-auto pt-2" />
       </section>
@@ -63,19 +63,19 @@ export default async function AboutPage({
             <div className="absolute inset-0 bg-gradient-to-t from-[#1F1916]/50 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl glass-card text-xs font-sans text-[#2C2623] border border-[#C9A96E]/40 flex items-center gap-3">
               <Heart className="w-5 h-5 text-[#C9A96E] shrink-0 fill-[#C9A96E]" />
-              <span>Killarney, Co. Kerry • Serving all of Ireland</span>
+              <span>{dict.about.locationBanner || "Killarney, Co. Kerry • Serving all of Ireland"}</span>
             </div>
           </div>
 
           <div className="lg:col-span-6 space-y-6">
             <h2 className="text-3xl sm:text-4xl font-serif text-[#2C2623] font-normal leading-tight">
-              Creating Stress-Free Luxury Experiences
+              {dict.about.heading2 || "Creating Stress-Free Luxury Experiences"}
             </h2>
             <p className="text-xs sm:text-sm font-sans text-[#6B5B4E] leading-relaxed">
-              Sunday Maison is a female-led event brand born out of a passion for elevated aesthetics, genuine Irish hospitality, and professional beauty services.
+              {dict.about.bodyParagraph1 || dict.about.text1}
             </p>
             <p className="text-xs sm:text-sm font-sans text-[#6B5B4E] leading-relaxed">
-              With deep roots in the beauty industry and hospitality management, we understand that planning an event — whether a hen party for 10 or a bridal morning — can quickly become overwhelming. Our mission is simple: to take care of every detail so that the host and guests can simply arrive, relax, look gorgeous, and celebrate.
+              {dict.about.bodyParagraph2 || dict.about.text2}
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-[#F0E6D6]">
@@ -93,7 +93,7 @@ export default async function AboutPage({
                 className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full gold-gradient-bg text-white text-xs font-sans font-medium tracking-wide shadow-md hover:shadow-lg transition-all cursor-pointer"
               >
                 <Sparkles className="w-4 h-4" />
-                <span>Start Planning With Us</span>
+                <span>{dict.about.startPlanning || "Start Planning With Us"}</span>
               </Link>
             </div>
           </div>

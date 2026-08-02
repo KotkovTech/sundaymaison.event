@@ -25,7 +25,7 @@ export function ContactCTA({ dict, locale }: ContactCTAProps) {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#FAF7F2]/10 border border-[#C9A96E]/30 text-xs font-sans text-[#E5D5B5]"
         >
           <Sparkles className="w-3.5 h-3.5 text-[#C9A96E]" />
-          <span>SUNDAY MAISON EVENTS</span>
+          <span>{dict.contactCTA?.tag || 'SUNDAY MAISON EVENTS'}</span>
         </motion.div>
 
         <motion.h2
@@ -70,7 +70,7 @@ export function ContactCTA({ dict, locale }: ContactCTAProps) {
             className="w-full sm:w-auto px-8 py-3.5 rounded-full bg-[#FAF7F2]/10 border border-[#C9A96E]/40 text-[#FAF7F2] hover:bg-[#C9A96E] hover:text-[#1F1916] font-sans text-xs sm:text-sm font-medium tracking-wide transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"
           >
             <MessageCircle className="w-4 h-4 text-[#25D366]" />
-            <span>WhatsApp</span>
+            <span>{dict.contactCTA?.whatsapp || 'WhatsApp'}</span>
           </a>
         </motion.div>
       </div>
