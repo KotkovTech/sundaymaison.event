@@ -24,7 +24,7 @@ export function KilleenNextPage({ locale }: { locale: string }) {
       tag: 'Spacious Estate Suite',
       price: '€290',
       period: 'per night',
-      img: '/sites/killeen-house/assets/images/killeen_af6a6676.jpg',
+      img: '/sites/killeen-house/assets/images/killeen_2.jpg',
       desc: 'Top-tier estate suite featuring dedicated lounge area, four-poster bed, rainfall shower, and views over Aghadoe rolling hills.'
     },
     {
@@ -32,7 +32,7 @@ export function KilleenNextPage({ locale }: { locale: string }) {
       tag: 'Garden View Comfort',
       price: '€210',
       period: 'per night',
-      img: '/sites/killeen-house/assets/images/killeen_af6a6678.jpg',
+      img: '/sites/killeen-house/assets/images/killeen_3.jpg',
       desc: 'Overlooking 1.5 acres of manicured estate lawns. Features orthopedic king mattress and luxury Kerry toiletries.'
     },
     {
@@ -40,7 +40,7 @@ export function KilleenNextPage({ locale }: { locale: string }) {
       tag: '19th-Century Heritage',
       price: '€175',
       period: 'per night',
-      img: '/sites/killeen-house/assets/images/killeen_af6a6680.jpg',
+      img: '/sites/killeen-house/assets/images/killeen_4.jpg',
       desc: 'Charming country house decor, original period details, high-speed Wi-Fi, and cooked-to-order breakfast.'
     }
   ];
