@@ -21,7 +21,7 @@ export function ContactFormClient({ dict }: ContactFormClientProps) {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 text-left">
-          {/* Email */}
+          {/* Email — Gmail */}
           <a
             href="mailto:sundaymaison.events@gmail.com"
             className="p-6 rounded-2xl bg-[#FFFDF9] border border-[#C9A96E]/20 hover:border-[#C9A96E] hover:shadow-md transition-all group flex flex-col justify-between space-y-4"
@@ -38,6 +38,27 @@ export function ContactFormClient({ dict }: ContactFormClientProps) {
               </p>
               <p className="text-xs font-sans text-[#6B5B4E] mt-1">
                 {dict.contact.forInquiries || 'For detailed inquiries & quotes'}
+              </p>
+            </div>
+          </a>
+
+          {/* Email — iCloud */}
+          <a
+            href="mailto:sundaymaison@icloud.com"
+            className="p-6 rounded-2xl bg-[#FFFDF9] border border-[#C9A96E]/20 hover:border-[#C9A96E] hover:shadow-md transition-all group flex flex-col justify-between space-y-4"
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] font-sans uppercase tracking-widest text-[#C9A96E] font-semibold">
+                {dict.contact.emailUsAlt || 'Email Us'}
+              </span>
+              <Mail className="w-5 h-5 text-[#C9A96E] group-hover:scale-110 transition-transform" />
+            </div>
+            <div>
+              <p className="text-sm font-sans font-medium text-[#2C2623] break-all">
+                sundaymaison@icloud.com
+              </p>
+              <p className="text-xs font-sans text-[#6B5B4E] mt-1">
+                {dict.contact.forBookings || 'For bookings & reservations'}
               </p>
             </div>
           </a>
@@ -64,12 +85,35 @@ export function ContactFormClient({ dict }: ContactFormClientProps) {
               </p>
             </div>
           </a>
+
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/353838036716?text=Hello%20Sunday%20Maison!%20I%20would%20like%20to%20inquire%20about%20an%20event."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-6 rounded-2xl bg-[#FFFDF9] border border-[#C9A96E]/20 hover:border-[#25D366] hover:shadow-md transition-all group flex flex-col justify-between space-y-4"
+          >
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] font-sans uppercase tracking-widest text-[#25D366] font-semibold">
+                WhatsApp
+              </span>
+              <MessageCircle className="w-5 h-5 text-[#25D366] group-hover:scale-110 transition-transform" />
+            </div>
+            <div>
+              <p className="text-sm font-sans font-medium text-[#2C2623]">
+                +353 83 803 6716
+              </p>
+              <p className="text-xs font-sans text-[#6B5B4E] mt-1">
+                {dict.contact.whatsappDesc || 'Quick chat & instant booking'}
+              </p>
+            </div>
+          </a>
         </div>
 
         {/* WhatsApp Big CTA */}
         <div className="pt-2">
           <a
-            href="https://wa.me/353870000000?text=Hello%20Sunday%20Maison!%20I%20would%20like%20to%20inquire%20about%20an%20event."
+            href="https://wa.me/353838036716?text=Hello%20Sunday%20Maison!%20I%20would%20like%20to%20inquire%20about%20an%20event."
             target="_blank"
             rel="noopener noreferrer"
             className="w-full py-4 px-6 rounded-2xl bg-[#25D366] text-white font-sans text-sm font-semibold tracking-wide flex items-center justify-center gap-3 shadow-lg hover:shadow-xl hover:bg-[#20bd5a] transition-all cursor-pointer"

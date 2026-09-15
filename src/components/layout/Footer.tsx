@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Locale } from '@/i18n/config';
-import { Mail, MapPin, Heart, Sparkles } from 'lucide-react';
+import { Mail, MapPin, Heart, Sparkles, MessageCircle } from 'lucide-react';
 import { InstagramIcon } from '@/components/icons/InstagramIcon';
 
 interface FooterProps {
@@ -102,6 +102,23 @@ export function Footer({ dict, locale }: FooterProps) {
                 <Mail className="w-4 h-4 text-[#C9A96E] shrink-0" />
                 <a href="mailto:sundaymaison.events@gmail.com" className="hover:text-[#C9A96E] transition-colors">
                   sundaymaison.events@gmail.com
+                </a>
+              </li>
+              <li className="flex items-center gap-2.5">
+                <Mail className="w-4 h-4 text-[#C9A96E] shrink-0" />
+                <a href="mailto:sundaymaison@icloud.com" className="hover:text-[#C9A96E] transition-colors">
+                  sundaymaison@icloud.com
+                </a>
+              </li>
+              <li className="flex items-center gap-2.5">
+                <MessageCircle className="w-4 h-4 text-[#C9A96E] shrink-0" />
+                <a
+                  href="https://wa.me/353838036716?text=Hello%20Sunday%20Maison!%20I%20would%20like%20to%20inquire%20about%20an%20event."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#C9A96E] transition-colors"
+                >
+                  +353 83 803 6716 (WhatsApp)
                 </a>
               </li>
               <li className="flex items-center gap-2.5">

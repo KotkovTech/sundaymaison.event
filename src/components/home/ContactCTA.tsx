@@ -64,7 +64,7 @@ export function ContactCTA({ dict, locale }: ContactCTAProps) {
           </Link>
 
           <a
-            href="https://wa.me/353870000000?text=Hello%20Sunday%20Maison!%20I%20would%20like%20to%20inquire%20about%20an%20event."
+            href="https://wa.me/353838036716?text=Hello%20Sunday%20Maison!%20I%20would%20like%20to%20inquire%20about%20an%20event."
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-8 py-3.5 rounded-full bg-[#FAF7F2]/10 border border-[#C9A96E]/40 text-[#FAF7F2] hover:bg-[#C9A96E] hover:text-[#1F1916] font-sans text-xs sm:text-sm font-medium tracking-wide transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"

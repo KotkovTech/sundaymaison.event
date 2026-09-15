@@ -20,7 +20,16 @@ interface GalleryClientProps {
   items: GalleryItem[];
 }
 
-/* ─── Lazy Video Component ─── */
+/* ─── Category hero video mapping ─── */
+const categoryVideos: Record<string, string> = {
+  'all': '/gallery/gallery_5.mp4',
+  'hen-parties': '/gallery/gallery_7.mp4',
+  'bridal-events': '/gallery/gallery_8.mp4',
+  'private-celebrations': '/gallery/gallery_6.mp4',
+  'food-styling': '/gallery/gallery_34.mp4',
+};
+
+/* ─── Lazy Video Component for grid items ─── */
 function LazyVideo({ src, className }: { src: string; className: string }) {
   const ref = useRef<HTMLVideoElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -63,12 +72,44 @@ function LazyVideo({ src, className }: { src: string; className: string }) {
   );
 }
 
+/* ─── Category Hero Banner ─── */
+function CategoryHero({ videoSrc, label }: { videoSrc: string; label: string }) {
+  return (
+    <div className="relative w-full h-40 sm:h-52 rounded-3xl overflow-hidden shadow-xl border border-[#C9A96E]/20">
+      <video
+        key={videoSrc}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        className="absolute inset-0 w-full h-full object-cover scale-110 blur-sm"
+      >
+        <source src={getAssetPath(videoSrc)} type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-gradient-to-b from-[#1F1916]/60 via-[#1F1916]/40 to-[#1F1916]/70" />
+      <div className="relative z-10 flex items-center justify-center h-full">
+        <motion.h2
+          key={label}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4 }}
+          className="text-2xl sm:text-4xl font-serif text-white font-light tracking-wide drop-shadow-lg text-center px-4"
+        >
+          {label}
+        </motion.h2>
+      </div>
+    </div>
+  );
+}
+
 export function GalleryClient({ dict, items }: GalleryClientProps) {
   const [activeFilter, setActiveFilter] = useState<string>('all');
   const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
 
   /* ─── Translated category labels mapping ─── */
   const categoryLabels: Record<string, string> = {
+    'all': dict.gallery.filterAll,
     'hen-parties': dict.gallery.filterHen,
     'bridal-events': dict.gallery.filterBridal,
     'private-celebrations': dict.gallery.filterPrivate,
@@ -110,7 +151,7 @@ export function GalleryClient({ dict, items }: GalleryClientProps) {
   }, [selectedItem, handleKeyDown]);
 
   return (
-    <div className="space-y-12">
+    <div className="space-y-10">
       {/* Category Tabs */}
       <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
         {filters.map((f) => {
@@ -130,6 +171,22 @@ export function GalleryClient({ dict, items }: GalleryClientProps) {
           );
         })}
       </div>
+
+      {/* Category Hero Banner with blurred background video */}
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={activeFilter}
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -8 }}
+          transition={{ duration: 0.3 }}
+        >
+          <CategoryHero
+            videoSrc={categoryVideos[activeFilter] || categoryVideos['all']}
+            label={categoryLabels[activeFilter] || dict.gallery.filterAll}
+          />
+        </motion.div>
+      </AnimatePresence>
 
       {/* Grid */}
       <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
