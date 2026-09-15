@@ -375,7 +375,9 @@
     "filterPrivate": "Fêtes Privées",
     "filterFood": "Buffets & Décoration",
     "filterBehind": "Coulisses",
-    "pageSubtitle": "Découvrez nos véritables scénographies, détails élégants, buffets gourmands et moments de fête."
+    "pageSubtitle": "Découvrez nos véritables scénographies, détails élégants, buffets gourmands et moments de fête.",
+    "typeImage": "photo",
+    "typeVideo": "vidéo"
   },
   "about": {
     "tag": "L'ESPRIT DU BRAND",

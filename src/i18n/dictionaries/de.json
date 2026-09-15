@@ -375,7 +375,9 @@
     "filterPrivate": "Private Feiern",
     "filterFood": "Kulinarik & Styling",
     "filterBehind": "Hinter den Kulissen",
-    "pageSubtitle": "Entdecken Sie unsere echten Setups, edlen Styling-Details, Gourmet-Grazing-Tische und besonderen Momente."
+    "pageSubtitle": "Entdecken Sie unsere echten Setups, edlen Styling-Details, Gourmet-Grazing-Tische und besonderen Momente.",
+    "typeImage": "Foto",
+    "typeVideo": "Video"
   },
   "about": {
     "tag": "DIE MARKE",

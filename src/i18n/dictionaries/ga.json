@@ -375,7 +375,9 @@
     "filterPrivate": "Ceiliúrthaí Príobháideacha",
     "filterFood": "Bia & Stíliú",
     "filterBehind": "Cúl an Radhairc",
-    "pageSubtitle": "Déan iniúchadh ar ár socruithe reatha, sonraí stílithe sóiseacha, táblaí grazing agus momaintí ceiliúrtha."
+    "pageSubtitle": "Déan iniúchadh ar ár socruithe reatha, sonraí stílithe sóiseacha, táblaí grazing agus momaintí ceiliúrtha.",
+    "typeImage": "grianghraf",
+    "typeVideo": "físeán"
   },
   "about": {
     "tag": "FAOI SUNDAY MAISON",

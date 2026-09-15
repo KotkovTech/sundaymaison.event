@@ -215,5 +215,47 @@
     "type": "image",
     "category": "private-celebrations",
     "categoryName": "Private Celebrations"
+  },
+  {
+    "id": 32,
+    "src": "/gallery/gallery_32.jpg",
+    "type": "image",
+    "category": "private-celebrations",
+    "categoryName": "Private Celebrations"
+  },
+  {
+    "id": 33,
+    "src": "/gallery/gallery_33.jpg",
+    "type": "image",
+    "category": "private-celebrations",
+    "categoryName": "Private Celebrations"
+  },
+  {
+    "id": 34,
+    "src": "/gallery/gallery_34.mp4",
+    "type": "video",
+    "category": "food-styling",
+    "categoryName": "Food & Styling"
+  },
+  {
+    "id": 35,
+    "src": "/gallery/gallery_35.mp4",
+    "type": "video",
+    "category": "food-styling",
+    "categoryName": "Food & Styling"
+  },
+  {
+    "id": 36,
+    "src": "/gallery/gallery_36.mp4",
+    "type": "video",
+    "category": "food-styling",
+    "categoryName": "Food & Styling"
+  },
+  {
+    "id": 37,
+    "src": "/gallery/gallery_37.mp4",
+    "type": "video",
+    "category": "food-styling",
+    "categoryName": "Food & Styling"
   }
 ]

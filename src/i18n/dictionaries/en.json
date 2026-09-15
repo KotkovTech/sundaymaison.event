@@ -375,7 +375,9 @@
     "filterPrivate": "Private Celebrations",
     "filterFood": "Food & Styling",
     "filterBehind": "Behind the Scenes",
-    "pageSubtitle": "Explore our real event setups, luxury styling details, gourmet grazing tables, and celebration moments."
+    "pageSubtitle": "Explore our real event setups, luxury styling details, gourmet grazing tables, and celebration moments.",
+    "typeImage": "photo",
+    "typeVideo": "video"
   },
   "about": {
     "tag": "MEET THE BRAND",

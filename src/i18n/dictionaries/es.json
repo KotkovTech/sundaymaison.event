@@ -375,7 +375,9 @@
     "filterPrivate": "Fiestas Privadas",
     "filterFood": "Gastronomía y Estilismo",
     "filterBehind": "Detrás de Escena",
-    "pageSubtitle": "Explora nuestros montajes reales, detalles de decoración, tablas aperitivo y momentos especiales."
+    "pageSubtitle": "Explora nuestros montajes reales, detalles de decoración, tablas aperitivo y momentos especiales.",
+    "typeImage": "foto",
+    "typeVideo": "vídeo"
   },
   "about": {
     "tag": "CONÓCENOS",
